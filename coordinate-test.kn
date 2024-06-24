@@ -1,0 +1,26 @@
+## Lines beginning with # will be ignored as comments
+## Boards should be rectangles
+## Parser does not distinguish between upper and lower case letters; newlines and spaces denote different fields.
+#
+#
+## Board uses the standard xy-coordinate system of number,letter
+#
+#
+## SIZE DECLARATION
+## Use the format  #x# for the board size. 
+10x10
+#
+## SITE AND KNIGHT LOCATIONS
+## Using descriptive notation for knight positions, and site locations. Separate using '-' for knights, '_' for sites.
+red-C3 red-D4
+red_F2 red_G9
+## Knights and locations are joinable using commas
+green-C6,D7
+green_F5,G6
+## Knight "species" are not case dependent, but should be otherwise exact
+#
+## FORBIDDEN SITES
+## Using descriptive notation for forbidden sites. Separate using '=' for forbidden sites.
+## Can use commas as well
+=F8,B8
+=C7
