@@ -1,0 +1,14 @@
+## These are comments and should be ignored
+## Boards should be rectangles
+## Using capital letters for locations "A", and lower case for knights "a"
+## 		Double letters mean location+knight in place Ba (B site, with a knight)
+## Using the following characters for placeholder spaces: "-" "." "o"
+##
+## Letters that will not be used "Ll, Ii, Oo"
+
+. . - - o o o a      o o 
+o o o    - O K l - -           -
+0 - L  0 - - - 0 --- 0 - -
+. - 0 0  0 ___ A
+L l l l - - B b C c
+Ka d - - - - - 
